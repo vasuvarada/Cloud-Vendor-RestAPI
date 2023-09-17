@@ -13,7 +13,7 @@ public class CloudVendor
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long vendorID;
     @Column
-    private  String vendorName;
+    private  String   vendorName;
     @Column
     private String vendorAddress;
     @Column
